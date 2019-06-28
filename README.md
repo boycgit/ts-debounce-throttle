@@ -5,7 +5,8 @@
 Typescript Version of debounce and throttle
  - fully migrate from [lodash v4.17.5 - debounce & throttle](https://lodash.com/docs/4.17.11#debounce)
  - rewritten with Typescript
- - fully tested
+ - no dependencies
+ - bundle size <20K ; < 3KB when gzip;
 
 为了仅仅使用 [lodash](https://lodash.com/docs/4.17.11#debounce) 中的 `debounce` 和 `throttle` 这两个函数的 TS 版本，在社区库库找了半天没有找到，于是只能自己动手将其迁移成 Typescript 版本；
 
