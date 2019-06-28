@@ -1,0 +1,26 @@
+{
+    "version": "0.1.0",
+    "compilerOptions": {
+        "target": "es5",
+        "outDir": "dist",
+        "sourceMap": false,
+        "declaration": true,
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "removeComments": false,
+        "strictNullChecks": true,
+        "noImplicitReturns": true,
+        "noImplicitUseStrict": true,
+        "noUnusedLocals": true,
+        
+        "noImplicitAny": false,
+        "moduleResolution": "node",
+        "downlevelIteration": true,
+        "lib": [
+            "es6"
+        ]
+    },
+    "include": [
+        "src/**/*.ts"
+    ]
+}
